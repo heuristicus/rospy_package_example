@@ -1,0 +1,7 @@
+#!/bin/env python
+
+from rospy_example.do_something import DoATask
+
+if __name__ == '__main__':
+    task_object = DoATask()
+    task_object.do_task()
